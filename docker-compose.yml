@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+  python-api:
+    build:
+      context: ./parsers/python
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    environment:
+      - PORT=8000
+
+  typescript-api:
+    build:
+      context: ./parsers/typescript
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    environment:
+      - PORT=3000
