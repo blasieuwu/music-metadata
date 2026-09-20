@@ -1,13 +1,16 @@
 # music metadata
+
 a simple, open-standard, and extensive music metadata and parser library
 
 ## features
+
 - **human-readable:** plaintext format that's easy to edit and inspect.
 - **validation checks:** guarantees necessary tags (`title`, `artist`, `album`, etc.).
 - **filesystem friendly:** has auto-renaming for easier differentiation (`title-artist.mdata`).
 - **multi-link support:** links for searching & direct playback links (like YouTube or Soundcloud)
 
 ## repository structure
+
 ```text
 music-metadata/
 ├── SPEC.md               # official specs
