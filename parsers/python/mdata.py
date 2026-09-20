@@ -63,7 +63,7 @@ def validate_mdata(file_name: str, silent: bool = False, yields: bool = False, t
             else:
                 data[key] = value.lower() == "true"
 
-        elif key == "link":
+        elif key in ("search-links", "playback-links"):
             links = [url.strip() for url in value.split("|")]
             data[key] = links
 
