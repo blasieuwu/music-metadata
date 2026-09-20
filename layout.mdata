@@ -1,0 +1,11 @@
+[title: song title]
+[romanized-title: song title]
+
+[artist: song artist]
+[romanized-artist: song artist]
+[album: song album]
+
+[lyrics: song-title.lrc]
+[search-links: https://example.com/song/song%20title]
+[playback-links: https://example.com/song/song%20title]
+[explicit: true]
