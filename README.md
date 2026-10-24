@@ -16,8 +16,7 @@ music-metadata/
 ├── SPEC.md               # official specs
 ├── parsers/
 │   ├── python/           # python parser (mdata.py)
-│   ├── typescript/       # typescript/javascript parser (coming soon)
-│   └── cpp/              # header-only C++ parser (coming soon)
+│   └── typescript/       # typescript/javascript parser
 └── repository/           # hosted .mdata files
 ```
 
